@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>Picture tag</h2>
+        <picture>
+            <source media="(min-width:400px)" srcset="" height="500" width="400">
+            <source media="(min-width:250px)" srcset="./assets/images/smith.jpg" height="500" width="400">
+            <img src="./assets/images/rohit.avif" alt="rohit" height="300" width="300">
+        </picture>
+        <h2>optins</h2>
+        <select name="options" id="options">
+            <option value="option1">option1</option>
+            <option value="option2">option2</option>
+            <option value="option3">option3</option>
+            <input type="submit" name="option">
+        </select><br><br>
+        <h2>Datalists</h2>
+        <input list="fruit" id="fruit" name="fruit">
+        <br><br>
+    
+        <datalist>
+            <option value="orange">orange</option>
+            <option value="mango">mango</option>
+            <option value="stawberry">strawberry</option>
+                   </datalist>
+                   <input type="submit">
+                   <h2>action and formaction</h2>
+                   <form action="./form.html" >
+                    <label>NAME :</label>
+                    <input name="enter name" placeholder="name" required><br><br>
+                    <label>PASSWORD :</label>
+                    <input type="password" placeholder="password" required><br><br>
+                    <input type="submit" value="submit" formaction="./form.html" >
+                   </form>
+
+                   
+
+
+
+
+    </form>
+</body>
+</html>
